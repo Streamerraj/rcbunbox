@@ -1,4 +1,122 @@
-<script>
-<!-- code by https://www.html-code-generator.com -->
-document.write(unescape('%3Chtml%3E%0A%20%20%3Chead%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//content.jwplatform.com/libraries/IDzF9Zmk.js%22%3E%3C/script%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22UTF-8%22%3E%0A%20%20%20%20%3Ctitle%3ELive%20Stream%20Player%3C/title%3E%0A%20%20%20%20%3Cmeta%20http-equiv%3D%22X-UA-Compatible%22%20content%3D%22IE%3Dedge%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1.0%22%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20body%20%7B%0A%20%20%20%20%20%20%20%20margin%3A%200%3B%0A%20%20%20%20%20%20%20%20padding%3A%200%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20.jwplayer%20%7B%0A%20%20%20%20%20%20%20%20position%3A%20absolute%20%21important%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20.jwplayer.jw-flag-aspect-mode%20%7B%0A%20%20%20%20%20%20%20%20min-height%3A%20100%25%3B%0A%20%20%20%20%20%20%20%20max-height%3A%20100%25%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%3C/style%3E%0A%20%20%3C/head%3E%0A%20%20%3Cbody%3E%0A%20%20%20%20%3Cdiv%20id%3D%22jwplayerDiv%22%3E%3C/div%3E%0A%20%20%20%20%3Cscript%20type%3D%22text/javascript%22%3E%0A%20%20%20%20%20%20jwplayer%28%22jwplayerDiv%22%29.setup%28%7B%0A%20%20%20%20%20%20%20%20%22autostart%22%3A%20true%2C%0A%20%20%20%20%20%20%20%20%22preload%22%3A%20%22auto%22%2C%0A%20%20%20%20%20%20%20%20%22repeat%22%3A%20true%2C%0A%20%20%20%20%20%20%20%20%22volume%22%3A%20%22100%22%2C%0A%20%20%20%20%20%20%20%20%22mute%22%3A%20false%2C%0A%20%20%20%20%20%20%20%20%22width%22%3A%20%22100%25%22%2C%0A%20%20%20%20%20%20%20%20%22height%22%3A%20%22100%25%22%2C%0A%20%20%20%20%20%20%20%20%22file%22%3A%20%22https%3A//cdn-in3.100ms.live/beam1/62306e57f097c15b9c7c5289/67d81a0702147c4bc5bcb6ee/20250317/1742215698949/master.m3u8%22%2C%0A%20%20%20%20%20%20%20%20%22type%22%3A%20%22dash%22%0A%20%20%20%20%20%20%7D%29%3B%0Afunction%20welcome%28%29%20%7B%0A%20%20%20%20%20%20%20%20window.open%28%22https%3A//t.me/cricmatchstream%22%29%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20const%20message%20%3D%20%22JOIN%20OUR%20TELEGRAM%20CHANNEL%20FOR%20MORE%20LIVE%20STREAM%20LINKS%22%3B%0A%20%20%20%20%20%20%20%20if%20%28confirm%28message%29%29%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20window.location.href%20%3D%20%22https%3A//t.me/cricmatchstream%22%3B%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%3C/script%3E%0A%20%20%3C/body%3E%0A%3C/html%3E'));
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IPL 2025 Live | Multilingual JW Player</title>
+  <script src="https://cdn.jwplayer.com/libraries/IDzF9Zmk.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #0f0f0f, #1a1a1a);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #00ffe1;
+      text-shadow: 1px 1px 5px #00ffe17c;
+    }
+
+    .language-container {
+      margin: 15px auto 30px auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 10px 20px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+    }
+
+    .language-container label {
+      font-size: 16px;
+      color: #aaa;
+    }
+
+    select {
+      padding: 10px 14px;
+      background: #1e1e1e;
+      color: white;
+      border: 1px solid #555;
+      border-radius: 10px;
+      outline: none;
+      font-size: 16px;
+    }
+
+    #player {
+      margin: 20px auto;
+      width: 90%;
+      max-width: 900px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    }
+
+    .telegram-box {
+      margin-top: 40px;
+      display: inline-block;
+      padding: 12px 25px;
+      font-size: 18px;
+      background: linear-gradient(135deg, #0088cc, #005f99);
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s;
+    }
+
+    .telegram-box:hover {
+      background: linear-gradient(135deg, #00aaff, #0077b3);
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .language-container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>[IPL 2025]  Multi Language Live Streaming</h2>
+
+    <div class="language-container">
+      <label for="languageSelector">Select Language:</label>
+      <select id="languageSelector">
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_HIN_IDC_MOB/Fallback/index.m3u8">Hindi</option>
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_ENG_IDC_MOB/Fallback/index.m3u8">English</option>
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_Guj_IDC_MOB/Fallback/index.m3u8">Gujarati</option>
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_TAM_IDC_MOB/Fallback/index.m3u8">Tamil</option>
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_TEL_IDC_MOB/Fallback/index.m3u8">Telugu</option>
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_MAR_IDC_MOB/Fallback/index.m3u8">Marathi</option>
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_BEN_IDC_MOB/Fallback/index.m3u8">Bengali</option>
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_KAN_IDC_MOB/Fallback/index.m3u8">Kannada</option>
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_Punj_IDC_MOB/Fallback/index.m3u8">Punjabi</option>
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_HAR_IDC_MOB/Fallback/index.m3u8">Haryanvi</option>
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_Bhoj_IDC_MOB/Fallback/index.m3u8">Bhojpuri</option>
+        <option value="https://prod-ent-live-gm.jiocinema.com/bpk-tv/JS_M1_IPL25_Mal_IDC_MOB/Fallback/index.m3u8">Malayalam</option>
+      </select>
+    </div>
+
+    <div id="player"></div>
+
+    <a class="telegram-box" href="https://t.me/cricmatchstream" target="_blank">
+      Join Our Telegram for More Live Links & Updates!
+    </a>
+  </div>
+
+  <script>
+    var _0x3f4a=["\x70\x6C\x61\x79\x65\x72","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x76\x61\x6C\x75\x65","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x63\x68\x61\x6E\x67\x65","\x73\x65\x74\x75\x70","\x66\x69\x6C\x65","\x31\x30\x30\x25","\x31\x36\x3A\x39","\x61\x75\x74\x6F\x73\x74\x61\x72\x74","\x63\x6F\x6E\x66\x69\x72\x6D","\x4A\x4F\x49\x4E\x20\x4F\x55\x52\x20\x54\x45\x4C\x45\x47\x52\x41\x4D\x20\x43\x48\x41\x4E\x4E\x45\x4C\x20\x46\x4F\x52\x20\x4D\x4F\x52\x45\x20\x4C\x49\x56\x45\x20\x53\x54\x52\x45\x41\x4D\x20\x4C\x49\x4E\x4B\x53","\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x6F\x70\x65\x6E"];
+    const playerInstance=jwplayer(_0x3f4a[0]);function loadStream(_0x780ex2){playerInstance[_0x3f4a[5]]({file:_0x780ex2,width:_0x3f4a[6],aspectratio:_0x3f4a[7],autostart:true})}document[_0x3f4a[1]](_0x3f4a[0])[_0x3f4a[3]](_0x3f4a[4],function(){loadStream(this[_0x3f4a[2]])});loadStream(document[_0x3f4a[1]](_0x3f4a[0])[_0x3f4a[2]]);function welcome(){window[_0x3f4a[15]](_0x3f4a[12])}const message=_0x3f4a[11];if(confirm(message)){window[_0x3f4a[14]][_0x3f4a[13]]=_0x3f4a[12]}
+  </script>
+</body>
+</html>
